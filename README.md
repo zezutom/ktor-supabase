@@ -1,9 +1,11 @@
-# Ktor and supabase demo
-This is a demo project to show how to use `Ktor` and `supabase` together.
+# Ktor and Supabase demo
+This is a demo project to show how to use `Ktor` and `Supabase` together.
 The main feature here is to demonstrate how to use supabase's Auth and Storage features.
 
+Please read the [blog post](https://www.tomaszezula.com/keep-data-safe-in-multi-tenant-systems-a-case-for-supabase-and-row-level-security) for more details.
+
 ## Prerequisites
-1. Sign up with supabase and create a [supabase project](https://supabase.com/dashboard/projects) and get the API URL and API Key. Store them in the environment variables `SUPABASE_URL` and `SUPABASE_KEY` respectively.
+1. Sign up with supabase and create a [Supabase project](https://supabase.com/dashboard/projects) and get the API URL and API Key. Store them in the environment variables `SUPABASE_URL` and `SUPABASE_KEY` respectively.
 2. Create a table called `todos` as follows:
 ```sql
 -- 1. Create table
