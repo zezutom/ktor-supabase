@@ -1,13 +1,13 @@
 package com.tomaszezula
 
 import com.tomaszezula.model.TodoRepositoryImpl
-import com.tomaszezula.plugins.*
+import com.tomaszezula.plugins.configureRouting
+import com.tomaszezula.plugins.configureSerialization
 import com.tomaszezula.service.TodoServiceImpl
 import com.tomaszezula.service.UserServiceImpl
 import io.github.jan.supabase.createSupabaseClient
 import io.github.jan.supabase.gotrue.GoTrue
 import io.github.jan.supabase.postgrest.Postgrest
-import io.ktor.server.application.*
 import io.ktor.server.application.*
 
 fun main(args: Array<String>) {
